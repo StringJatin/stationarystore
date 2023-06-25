@@ -61,7 +61,7 @@ function App() {
     }
   return (
     <>
- <BrowserRouter basename={process.env.PUBLIC_URL}>>
+ <BrowserRouter basename="/Shop">>
       {/* <Navbar size={cart.length} /> */}
       {warning && <div className="warning">Item is already present in the cart.</div>}
 
