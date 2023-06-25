@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    height: 10px;
+    flex-direction: column;
+
+    
+}
+.navbarItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98.4%;
+    margin: auto;
+    list-style-type: none;
+    background-color: rgb(255, 255, 0);
+    padding: 10px;
+    border: 1px solid yellow;
+    
+}
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+    margin-left: 30%;
+}
+
+.listItems a{
+    text-decoration: none;
+}

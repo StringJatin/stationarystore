@@ -1,0 +1,46 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+
+.card {
+  background-color: #e0dd1231;
+  border: 1px solid #b6ad99;
+  border-radius: 4px;
+  padding: 20px;
+  height: 400px;
+}
+
+.imageBox {
+  text-align: center;
+}
+
+.imageBox img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
