@@ -61,12 +61,12 @@ function App() {
     }
   return (
     <>
- <BrowserRouter basename="/Shop">>
+ <BrowserRouter basename="/stationarystore">>
       {/* <Navbar size={cart.length} /> */}
       {warning && <div className="warning">Item is already present in the cart.</div>}
 
       <Routes>
-        <Route path="/" element={<Shop size={cart.length} handleClick={handleClick} />} />
+        <Route path="/stationarystore" element={<Shop size={cart.length} handleClick={handleClick} />} />
         <Route path="/about"  element={<About size={cart.length} />} />
         <Route path="/contact" element={<Contact size={cart.length} />} />
         <Route path="/Cart" element={<Cart finalCartPrice={finalCartPrice} handleOnChangeI={handleOnChangeI} handleOnChangeD={handleOnChangeD} cart={cart} setCart={setCart}  />} />
